@@ -18,7 +18,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 
-# TODO: Here we will set up all the Streamlit display elements. 
+# Here we will set up all the Streamlit display elements. 
 # (1) Create a title for the streamlit page, 
 # (2) display the previous message history using streamlit's chat_message() and markdown() functions, and 
 # (3) display an input element for the user's message using streamlit's chat_input() function
